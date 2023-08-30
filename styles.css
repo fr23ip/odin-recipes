@@ -1,0 +1,46 @@
+
+body {
+    background-color: #f2f2f2;
+    /* font-family: 'Roboto', sans-serif; */
+    font-family: 'Courgette', cursive;;
+}
+
+h1 {
+    text-align: center;
+    /* font-family: 'Courgette', cursive; */
+    font-size: 4em;
+}
+
+#recipes {
+    text-align: center;
+    font-size: 2em;
+}
+
+.illus {
+    max-width: 350px;
+    height: auto;
+    display: block;
+    margin: 30px auto 30px auto;
+}
+
+.container {
+    position: relative;
+    text-align: center;
+}
+
+.cookies, .cupcakes, .donuts {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.title {
+    color: #FF7F11;
+    font-size: 4em;
+    text-shadow:
+    -4px -4px 0 #f2f2f2,  
+     4px -4px 0 #f2f2f2,
+    -4px  4px 0 #f2f2f2,
+     4px  4px 0 #f2f2f2;
+}
