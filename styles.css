@@ -49,3 +49,8 @@ h1 {
      4px  4px 0 #f2f2f2;
     text-decoration: none;
 }
+
+p {
+    text-align: center;
+    font-size: 1.5em;
+}
